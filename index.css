@@ -16,7 +16,11 @@ body {
   letter-spacing: 0.15em;
   position: relative;
   size: 2em;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.85);
 }
+
+
 
 
 
@@ -160,7 +164,7 @@ body {
 }
 
 .entry-container {
-  background: url("assets/sample1.jpg");
+  background: url("assets/waterloo-eng-thumbnail.png");
   color: rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;
