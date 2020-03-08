@@ -268,7 +268,20 @@ body {
   .website-contents .about-paragraph {
       width: 100%;
   }
+
+  .top-bar {
+    
+  }
+
 }
+
+@media screen and (max-width: 600px) {
+ 
+}
+
+
+
+
 
 /* ----- FOOTER ----- */
 
