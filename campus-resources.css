@@ -96,6 +96,17 @@ body {
   opacity: 100%;
 }
 
+.styleguide {
+  width: 70%;
+  height: 70%;
+}
+
+.problem-visual {
+  margin: auto;
+  width: 60%;
+  height: 60%;
+}
+
 
 .article .summary {
   width: 70%;
@@ -146,10 +157,7 @@ body {
       padding-left: 0em;
   }
 
-  .header-image {
-      width: 0%;
-      height: 0%;
-  }
+
 
   .website-contents {
       width: 80%;
@@ -160,6 +168,8 @@ body {
       
   }
 }
+
+
 
 /* ----- FOOTER ----- */
 
