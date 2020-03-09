@@ -102,8 +102,15 @@ body {
   height: 0%;
 }
 
+  .prototyping-gif img{
+    box-shadow: 1px 1px 10px #5e5e5e;
+  }
 
   @media screen and (max-width: 600px) {
+
+    .prototyping-gif {
+      box-shadow: none;
+    }
 
     .header-image-desktop img {
       width: 0%;
@@ -137,7 +144,7 @@ body {
 .article .summary {
   width: 70%;
   margin: auto;
-  background-color: rgb(161, 201, 177);
+  background-color: rgb(166, 231, 200);
   padding-left: 1em;
   padding-right: 1em;
   margin-top: 1em;
