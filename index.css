@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Work+Sans:400,600");
+@import url("'https://fonts.googleapis.com/css?family=Merriweather|Playfair+Display&display=swap'");
 
 /* ------BODY------ */
 
@@ -9,7 +10,7 @@ body {
 
 /* ------ LOGO ------ */
 
-.top-bar .logo a {
+.top-bar-desktop .logo a {
   padding-top: 1em;
   margin: 0;
   font-weight: 600;
@@ -62,6 +63,10 @@ body {
 }
 .nav-wrapper li a:hover {
   color: rgb(103, 163, 128);
+}
+
+.top-bar-mobile {
+  display: none;
 }
 
 /* -----  WEBSITE CONTENTS -----*/
@@ -182,7 +187,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(8, 8, 8, 0.8);
+  background: rgba(5, 0, 17, 0.7);
   transition: all 0.5s;
 }
 
@@ -239,21 +244,58 @@ body {
   }
 }
 
+
+
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
+
+ 
   .column {
     flex: 100%;
     max-width: 100%;
   }
 
-  .nav-wrapper {
+  
+
+}
+
+@media screen and (max-width: 500px)
+ {
+  .top-bar-mobile {
+    display: block;
+  }
+
+  .nav-wrapper-mobile {
       float: left;
   }
 
-  .nav-wrapper ul {
+  .nav-wrapper-mobile ul {
+      position: relative;
+      align-self: left;
+      font-size: 1em;
+      font-weight: 400;
+      background-color: rgba(255, 242, 170, 0.9);
       float: left;
       padding-right: 0em;
-      padding-left: 0em;
+      padding-left: 2em;
+  }
+
+  .nav-wrapper-mobile li {
+    position: relative;
+    align-self: left;
+    display: inline;
+    text-decoration: none;
+    padding-right: 0.55em;
+    padding-left: 0.55em;
+    float: right;
+  }
+  
+  .nav-wrapper-mobile li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.85);
+  }
+  .nav-wrapper-mobile li a:hover {
+    color: rgb(103, 163, 128);
   }
 
   .animation {
@@ -269,15 +311,14 @@ body {
       width: 100%;
   }
 
-  .top-bar {
-    
+  .top-bar-desktop {
+    display: none;
   }
+ }
 
-}
 
-@media screen and (max-width: 600px) {
- 
-}
+
+
 
 
 

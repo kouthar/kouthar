@@ -12,7 +12,7 @@ body {
 
 /* ------ LOGO ------ */
 
-.top-bar .logo a {
+.top-bar-desktop .logo a {
   padding-top: 1em;
   margin: 0;
   font-weight: 600;
@@ -37,6 +37,10 @@ body {
 
 .menu {
   display: inline;
+}
+
+.top-bar-mobile {
+  display: none;
 }
 
 .nav-wrapper ul {
@@ -168,6 +172,7 @@ body {
 
  
 }
+
 .article p {
   line-height: 2em;
   font-size: 1em;
@@ -199,15 +204,7 @@ body {
     max-width: 100%;
   }
 
-  .nav-wrapper {
-      float: left;
-  }
-
-  .nav-wrapper ul {
-      float: left;
-      padding-right: 0em;
-      padding-left: 0em;
-  }
+ 
 
 
 
@@ -217,6 +214,63 @@ body {
 
  
 }
+
+@media screen and (max-width: 500px){
+  .top-bar-mobile {
+    display: block;
+  }
+
+
+
+  .nav-wrapper-mobile {
+  }
+
+  .nav-wrapper-mobile ul {
+      position: relative;
+      font-size: 1em;
+      font-weight: 400;
+      background-color: rgba(255, 242, 170, 0.9);
+      float: left;
+      padding-right: 0em;
+      padding-left: 2em;
+  }
+
+  .nav-wrapper-mobile li {
+    position: relative;
+    align-self: left;
+    display: inline;
+    text-decoration: none;
+    padding-right: 0.55em;
+    padding-left: 0.55em;
+    float: right;
+  }
+  
+  .nav-wrapper-mobile li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.85);
+  }
+  .nav-wrapper-mobile li a:hover {
+    color: rgb(103, 163, 128);
+  }
+
+  .animation {
+      width: 0%;
+      height: 0%;
+  }
+
+  .website-contents {
+      width: 80%;
+  }
+
+  .website-contents .about-paragraph {
+      width: 100%;
+  }
+
+  .top-bar-desktop {
+    display: none;
+  }
+  
+ }
 
 
 
