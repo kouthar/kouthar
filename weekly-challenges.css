@@ -173,6 +173,9 @@ body {
  
 }
 
+.subheading {
+  padding-top: -2em;
+}
 .article p {
   line-height: 2em;
   font-size: 1em;

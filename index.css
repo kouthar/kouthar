@@ -4,7 +4,7 @@
 /* ------BODY------ */
 
 body {
-  background-color: rgba(255, 242, 170, 0.9);
+  background-color: rgba(250, 255, 249, 0.9);
   font-family: "Work Sans", sans-serif;
 }
 
@@ -62,7 +62,7 @@ body {
   color: rgba(0, 0, 0, 0.85);
 }
 .nav-wrapper li a:hover {
-  color: rgb(103, 163, 128);
+  color: #6A9CE5;
 }
 
 .top-bar-mobile {
@@ -94,7 +94,7 @@ body {
 }
 
 .website-contents .about h2 {
-  color: rgb(74, 145, 103);
+  color: #6A9CE5;
   margin: 0;
 }
 
@@ -108,11 +108,11 @@ body {
 
 .website-contents .about .learn-more a {
   text-decoration: none;
-  color: rgb(74, 145, 103);
+  color: #6A9CE5;
 }
 
 .website-contents .about .learn-more a:hover {
-  color: rgb(34, 95, 59);
+  color :#6A9CE5;
 }
 
 /* ----- DESIGN ---- */
@@ -132,9 +132,9 @@ body {
 /* Create four equal columns that sits next to each other */
 .column {
   flex: 25%;
-  max-width: 30%;
-  float: left;
-  padding-right: 2em;
+  max-width: 45%;
+  float: right;
+  padding-right: 0.1em;
 }
 
 .entry {
@@ -157,19 +157,33 @@ body {
 }
 
 .column a:hover {
-  color: rgb(103, 163, 128);
 }
 
 .column a:hover ~ #image {
-  opacity: 70%;
+  opacity: 20%;
 }
 
 .entry-container img {
   visibility: hidden;
 }
 
+.entry-container-2 img {
+  visibility: hidden;
+}
+
 .entry-container {
   background: url("assets/waterloo-eng-thumbnail.png");
+  color: rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+.entry-container-2 {
+  background: url("assets/weekly-pd-exercises.png");
   color: rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;
@@ -187,11 +201,36 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(5, 0, 17, 0.7);
+  background: rgba(255, 255, 255, 0.4);
   transition: all 0.5s;
+
 }
 
 .entry-container:before {
+    position: absolute;
+    content:    "";
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.0);
+    transition: all 0.5s;
+}
+
+.entry-container-2:hover:before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.4);
+  transition: all 0.5s;
+}
+
+.entry-container-2:before {
     position: absolute;
     content:    "";
     display: block;
@@ -228,11 +267,19 @@ body {
     font-size: 0.75em;
   }
 .entry-container:hover {
-  color:  rgba(250, 255, 249, 1);
+  
+
+}
+
+.entry-container-2:hover {
 
 }
 
 .entry-container {
+  background-color: black;
+}
+
+.entry-container-2 {
   background-color: black;
 }
 
@@ -274,7 +321,7 @@ body {
       align-self: left;
       font-size: 1em;
       font-weight: 400;
-      background-color: rgba(255, 242, 170, 0.9);
+      background-color: rgba(250, 255, 249, 0.9);
       float: left;
       padding-right: 0em;
       padding-left: 2em;
@@ -295,7 +342,7 @@ body {
     color: rgba(0, 0, 0, 0.85);
   }
   .nav-wrapper-mobile li a:hover {
-    color: rgb(103, 163, 128);
+    color: #6A9CE5;
   }
 
   .animation {
@@ -343,6 +390,8 @@ body {
 }
 
 .footer .links li a {
+  color: #333333;
+  font-size: 1.5em;
   text-decoration: none;
   margin: 0;
 }
