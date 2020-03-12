@@ -84,6 +84,8 @@ body {
   color: rgba(0, 0, 0, 0.85);
 }
 
+.animation {
+}
 .animation img {
   height: 18%;
   width: 18%;
@@ -112,7 +114,7 @@ body {
 }
 
 .website-contents .about .learn-more a:hover {
-  color :#6A9CE5;
+  opacity: 70%;
 }
 
 /* ----- DESIGN ---- */
@@ -313,28 +315,25 @@ body {
   }
 
   .nav-wrapper-mobile {
-      float: left;
+    text-align: center;
   }
 
   .nav-wrapper-mobile ul {
+      margin-bottom: 0px;
       position: relative;
-      align-self: left;
       font-size: 1em;
       font-weight: 400;
       background-color: rgba(250, 255, 249, 0.9);
-      float: left;
       padding-right: 0em;
-      padding-left: 2em;
+      padding-left: 0em;
   }
 
   .nav-wrapper-mobile li {
     position: relative;
-    align-self: left;
     display: inline;
     text-decoration: none;
     padding-right: 0.55em;
     padding-left: 0.55em;
-    float: right;
   }
   
   .nav-wrapper-mobile li a {
@@ -352,6 +351,7 @@ body {
 
   .website-contents {
       width: 80%;
+      padding-top: 0em;
   }
 
   .website-contents .about-paragraph {
@@ -373,12 +373,14 @@ body {
 
 /* ----- FOOTER ----- */
 
-.footer .links nav {
+.footer .links {
+  text-align: center;
   display: inline;
 }
 
 .footer .links ul {
   position: relative;
+  padding-inline-start: 0px;
 }
 
 .footer .links li {
@@ -386,7 +388,6 @@ body {
   align-self: center;
   display: inline;
   padding: 1em;
-  float: right;
 }
 
 .footer .links li a {
@@ -396,10 +397,15 @@ body {
   margin: 0;
 }
 
+
 /* ----- SIGNATURE -----*/
 
 .signature {
-  padding: 3em;
+  padding-bottom: 1em;
+}
+
+i:hover {
+  color: #6A9CE5;
 }
 
 .signature p {

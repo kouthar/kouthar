@@ -112,6 +112,10 @@ body {
 
   @media screen and (max-width: 600px) {
 
+    h1 {
+      font-size: 1.5em;
+      text-align: center;
+    }
     .prototyping-gif {
       box-shadow: none;
     }
@@ -225,27 +229,30 @@ body {
 
 
 
+  .top-bar-mobile {
+    display: block;
+  }
+
   .nav-wrapper-mobile {
+    text-align: center;
   }
 
   .nav-wrapper-mobile ul {
+      margin-bottom: 0px;
       position: relative;
       font-size: 1em;
       font-weight: 400;
       background-color: rgba(250, 255, 249, 0.9);
-      float: left;
       padding-right: 0em;
-      padding-left: 2em;
+      padding-left: 0em;
   }
 
   .nav-wrapper-mobile li {
     position: relative;
-    align-self: left;
     display: inline;
     text-decoration: none;
     padding-right: 0.55em;
     padding-left: 0.55em;
-    float: right;
   }
   
   .nav-wrapper-mobile li a {
@@ -279,20 +286,20 @@ body {
 
 /* ----- FOOTER ----- */
 
-.footer .links nav {
+.footer .links {
   display: inline;
+  text-align: center;
 }
 
 .footer .links ul {
   position: relative;
+  padding-inline-start: 0px;
 }
 
 .footer .links li {
   position: relative;
-  align-self: center;
   display: inline;
   padding: 1em;
-  float: right;
 }
 
 .footer .links li a {
@@ -302,10 +309,50 @@ body {
   margin: 0;
 }
 
+.next-links {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.next-links a {
+  text-decoration: none;
+  color: #6A9CE5;
+}
+
+.next-links .back {
+  float: left;
+}
+
+.next-links .next {
+  float: right;
+}
+
+.next-button {
+  padding-left: 1em;
+}
+
+.back-button {
+  padding-right: 1em;
+}
+
+.next:hover {
+  opacity: 70%;
+}
+
+
+.back:hover {
+  opacity: 70%;
+}
+
+
+i:hover {
+  color: #6A9CE5;
+}
+
 /* ----- SIGNATURE -----*/
 
 .signature {
-  padding: 3em;
+  padding-bottom: 1em;
 }
 
 .signature p {
