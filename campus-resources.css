@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Work+Sans:400,600");
+@import url('https://fonts.googleapis.com/css?family=Domine&display=swap');
 
 /* ------BODY------ */
 
@@ -21,6 +22,7 @@ body {
   size: 2em;
   text-decoration: none;
   color: rgba(0, 0, 0, 0.85);
+  font-family: 'Domine', serif;
 }
 
 

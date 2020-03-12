@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Work+Sans:400,600");
 @import url("'https://fonts.googleapis.com/css?family=Merriweather|Playfair+Display&display=swap'");
-
+@import url('https://fonts.googleapis.com/css?family=Domine&display=swap');
 /* ------BODY------ */
 
 body {
@@ -13,14 +13,24 @@ body {
 .top-bar-desktop .logo a {
   padding-top: 1em;
   margin: 0;
-  font-weight: 600;
+  font-weight: 800;
   letter-spacing: 0.15em;
   position: relative;
   size: 2em;
   text-decoration: none;
   color: rgba(0, 0, 0, 0.85);
+  font-family: 'Domine', serif;
 }
 
+.salutation {
+  font-family: 'Domine', serif;
+  font-weight: 500;
+}
+
+.portfolio {
+  font-weight: 400;
+  
+}
 
 
 
@@ -71,6 +81,10 @@ body {
 
 /* -----  WEBSITE CONTENTS -----*/
 
+mark {
+  background-color: rgba(106, 156, 229, 0.25);
+  
+}
 .website-contents h1 {
   letter-spacing: 0.07em;
   margin: 0;
@@ -96,6 +110,7 @@ body {
 }
 
 .website-contents .about h2 {
+  font-weight: 400;
   color: #6A9CE5;
   margin: 0;
 }
