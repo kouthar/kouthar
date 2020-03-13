@@ -1,0 +1,371 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:400,600");
+@import url('https://fonts.googleapis.com/css?family=Domine&display=swap');
+
+/* ------BODY------ */
+
+body {
+  background-color: rgba(250, 255, 249, 0.9);
+  font-family: "Work Sans", sans-serif;
+}
+
+
+    
+
+/* ------ LOGO ------ */
+
+.top-bar-desktop .logo a {
+  padding-top: 1em;
+  margin: 0;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  position: relative;
+  size: 2em;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.85);
+  font-family: 'Domine', serif;
+
+}
+
+
+
+/* ------ CONTENTS ------ */
+
+.website-contents {
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 3em;
+}
+
+/* ------NAVIGATION BAR------ */
+
+.menu {
+  display: inline;
+}
+
+.top-bar-mobile {
+  display: none;
+}
+
+.nav-wrapper ul {
+  position: relative;
+  align-self: left;
+  font-size: 1.1em;
+  font-weight: 400;
+  background-color: rgba(250, 255, 249, 0.9);
+  padding-right: 3em;
+}
+
+.nav-wrapper li {
+  position: relative;
+  align-self: left;
+  display: inline;
+  text-decoration: none;
+  padding: 1em;
+  float: right;
+}
+
+.nav-wrapper li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.85);
+}
+.nav-wrapper li a:hover {
+  color: #6A9CE5;
+}
+
+/* -----  WEBSITE CONTENTS -----*/
+
+.website-contents h1 {
+  letter-spacing: 0.04em;
+  margin: 0;
+}
+
+/* ------ article ------ */
+
+.website-contents .article {
+  padding: 1.3em;
+  background-color: rgba(250, 255, 249, 0.9);
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.article h1 {
+    margin-top: 1em;
+}
+
+.article .background {
+    margin-top: 2em;
+}
+
+.header-image-desktop img {
+
+  height: 100%;
+  width: 100%;
+  opacity: 100%;
+
+
+}
+
+.flow {
+  height: 95%;
+  width: 95%;
+}
+
+.header-image-mobile img {
+  width: 0%;
+  height: 0%;
+}
+
+  .prototyping-gif img{
+    box-shadow: 1px 1px 10px #5e5e5e;
+  }
+
+  @media screen and (max-width: 600px) {
+
+    h1 {
+      font-size: 1.5em;
+      text-align: center;
+    }
+    .prototyping-gif {
+      box-shadow: none;
+    }
+
+    .header-image-desktop img {
+      width: 0%;
+      height: 0%;
+    }
+
+    .header-image-mobile img {
+      width: 100%;
+      height: 100%
+    }
+
+    
+    
+    
+  }
+
+
+
+.styleguide {
+  width: 70%;
+  height: 70%;
+}
+
+.problem-visual {
+  margin: auto;
+  width: 60%;
+  height: 60%;
+}
+
+
+.article .summary {
+  width: 70%;
+  margin: auto;
+  background-color: #ccdbff;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-top: 1em;
+}
+
+@media screen and (max-width: 800px) {
+
+  .article .summary {
+    width: 60%;
+    margin: auto;
+  }
+ 
+}
+
+@media screen and (max-width: 600px) {
+
+  .article .summary {
+    width: 60%;
+    margin: auto;
+  }
+
+ 
+}
+
+.subheading {
+  padding-top: -2em;
+}
+.article p {
+  line-height: 2em;
+  font-size: 1em;
+}
+
+.website-contents .article .learn-more a {
+  text-decoration: none;
+  color: #6A9CE5;
+}
+
+.website-contents .article .learn-more a:hover {
+  color: #6A9CE5;
+}
+
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+ 
+
+
+
+  .website-contents {
+      width: 80%;
+  }
+
+ 
+}
+
+@media screen and (max-width: 500px){
+  .top-bar-mobile {
+    display: block;
+  }
+
+
+
+  .top-bar-mobile {
+    display: block;
+  }
+
+  .nav-wrapper-mobile {
+    text-align: center;
+  }
+
+  .nav-wrapper-mobile ul {
+      margin-bottom: 0px;
+      position: relative;
+      font-size: 1em;
+      font-weight: 400;
+      background-color: rgba(250, 255, 249, 0.9);
+      padding-right: 0em;
+      padding-left: 0em;
+  }
+
+  .nav-wrapper-mobile li {
+    position: relative;
+    display: inline;
+    text-decoration: none;
+    padding-right: 0.55em;
+    padding-left: 0.55em;
+  }
+  
+  .nav-wrapper-mobile li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.85);
+  }
+  .nav-wrapper-mobile li a:hover {
+    color: #6A9CE5;
+  }
+
+  .animation {
+      width: 0%;
+      height: 0%;
+  }
+
+  .website-contents {
+      width: 80%;
+  }
+
+  .website-contents .about-paragraph {
+      width: 100%;
+  }
+
+  .top-bar-desktop {
+    display: none;
+  }
+  
+ }
+
+
+
+/* ----- FOOTER ----- */
+
+.footer .links {
+  display: inline;
+  text-align: center;
+}
+
+.footer .links ul {
+  position: relative;
+  padding-inline-start: 0px;
+}
+
+.footer .links li {
+  position: relative;
+  display: inline;
+  padding: 1em;
+}
+
+.footer .links li a {
+  color: #333333;
+  font-size: 1.5em;
+  text-decoration: none;
+  margin: 0;
+}
+
+.next-links {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.next-links a {
+  text-decoration: none;
+  color: #6A9CE5;
+}
+
+.next-links .back {
+  float: left;
+}
+
+.next-links .next {
+  float: right;
+}
+
+.next-button {
+  padding-left: 1em;
+}
+
+.back-button {
+  padding-right: 1em;
+}
+
+.next:hover {
+  opacity: 70%;
+}
+
+
+.back:hover {
+  opacity: 70%;
+}
+
+
+i:hover {
+  color: #6A9CE5;
+}
+
+/* ----- SIGNATURE -----*/
+
+.signature {
+  padding-bottom: 1em;
+}
+
+.signature p {
+  text-align: center;
+}
+
+
+
