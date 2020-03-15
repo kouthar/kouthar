@@ -12,6 +12,7 @@ body {
     
 
 /* ------ LOGO ------ */
+.top-bar-desktop nav ul li:last-child { float: left; }
 
 .top-bar-desktop .logo a {
   padding-top: 1em;
@@ -26,9 +27,20 @@ body {
 
 }
 
+mark {
+  background-color:rgba(106, 156, 229, 0.25);
+  padding: 3px;
+}
+
+
 
 
 /* ------ CONTENTS ------ */
+
+.article-contents {
+  margin-left: 10%;
+  margin-right: 10%;
+}
 
 .website-contents {
   padding-left: 3em;
@@ -77,6 +89,7 @@ body {
 .website-contents h1 {
   letter-spacing: 0.04em;
   margin: 0;
+  text-align: center;
 }
 
 /* ------ article ------ */
@@ -105,8 +118,7 @@ body {
 }
 
 .flow {
-  height: 95%;
-  width: 95%;
+  
 }
 
 .header-image-mobile img {

@@ -10,6 +10,9 @@ body {
 
 /* ------ LOGO ------ */
 
+.top-bar-desktop ul li:last-child { float: left; }
+
+
 .top-bar-desktop .logo a {
   padding-top: 1em;
   margin: 0;
@@ -83,12 +86,13 @@ body {
 /* -----  WEBSITE CONTENTS -----*/
 
 mark {
-  background-color: rgba(106, 156, 229, 0.25);
-  
+  background-color:rgba(106, 156, 229, 0.25);
+  padding: 3px;
 }
 .website-contents h1 {
   letter-spacing: 0.07em;
   margin: 0;
+  
 }
 
 /* ------ ABOUT ------ */
