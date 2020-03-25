@@ -149,7 +149,6 @@ mark {
   display: flex;
   flex-wrap: wrap;
   padding: 0 0.5em;
-  margin: auto;
 }
 
 /* Create four equal columns that sits next to each other */
@@ -194,8 +193,12 @@ mark {
   visibility: hidden;
 }
 
+.entry-container-3 img {
+  visibility: hidden;
+}
+
 .entry-container {
-  background: url("assets/waterloo-eng-thumbnail.png");
+  background: url("assets/yourW-thumbnail.png");
   color: rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;
@@ -207,6 +210,17 @@ mark {
 
 .entry-container-2 {
   background: url("assets/airbnb-thumbnail.png");
+  color: rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+.entry-container-3 {
+  background: url("assets/illustration-thumbnail.png");
   color: rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;
@@ -253,6 +267,18 @@ mark {
   transition: all 0.5s;
 }
 
+.entry-container-3:hover:before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.4);
+  transition: all 0.5s;
+}
+
 .entry-container-2:before {
     position: absolute;
     content:    "";
@@ -263,6 +289,18 @@ mark {
     bottom: 0;
     background: rgba(255, 255, 255, 0.0);
     transition: all 0.5s;
+}
+
+.entry-container-3:before {
+  position: absolute;
+  content:    "";
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.0);
+  transition: all 0.5s;
 }
 
 .overlay-container {
@@ -298,11 +336,19 @@ mark {
 
 }
 
+.entry-container-3:hover {
+
+}
+
 .entry-container {
   background-color: black;
 }
 
 .entry-container-2 {
+  background-color: black;
+}
+
+.entry-container-3 {
   background-color: black;
 }
 
