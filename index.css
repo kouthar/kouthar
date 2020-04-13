@@ -6,6 +6,8 @@
 body {
   background-color: rgba(250, 255, 249, 0.9);
   font-family: "Work Sans", sans-serif;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 /* ------ LOGO ------ */
@@ -31,8 +33,9 @@ body {
 }
 
 .portfolio{
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1.7em;
+  text-align: center;
 
 }
 
@@ -106,8 +109,8 @@ mark {
 .animation {
 }
 .animation img {
-  height: 18%;
-  width: 18%;
+  height: 30%;
+  width: 30%;
   float: right;
   padding-top: 2.5em;
   padding-right: 6em;
@@ -154,9 +157,9 @@ mark {
 /* Create four equal columns that sits next to each other */
 .column {
   flex: 25%;
-  max-width: 45%;
-  float: right;
-  padding-right: 0.1em;
+  max-width: 70%;
+  display: inline;
+  margin: 0 auto;
 }
 
 .entry {
@@ -193,9 +196,7 @@ mark {
   visibility: hidden;
 }
 
-.entry-container-3 img {
-  visibility: hidden;
-}
+
 
 .entry-container {
   background: url("assets/yourW-thumbnail.png");
@@ -219,17 +220,6 @@ mark {
   transition: all 0.5s;
 }
 
-.entry-container-3 {
-  background: url("assets/illustration-thumbnail.png");
-  color: rgba(0, 0, 0, 0);
-  position: relative;
-  overflow: hidden;
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-  transition: all 0.5s;
-}
-
 .entry-container:hover:before {
   position: absolute;
   content: "";
@@ -238,7 +228,7 @@ mark {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.7);
   transition: all 0.5s;
 
 }
@@ -263,21 +253,11 @@ mark {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.7);
   transition: all 0.5s;
 }
 
-.entry-container-3:hover:before {
-  position: absolute;
-  content: "";
-  display: block;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(255, 255, 255, 0.4);
-  transition: all 0.5s;
-}
+
 
 .entry-container-2:before {
     position: absolute;
@@ -291,17 +271,7 @@ mark {
     transition: all 0.5s;
 }
 
-.entry-container-3:before {
-  position: absolute;
-  content:    "";
-  display: block;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(255, 255, 255, 0.0);
-  transition: all 0.5s;
-}
+
 
 .overlay-container {
   position: absolute;
@@ -317,28 +287,53 @@ mark {
 }
 
 .overlay-title {
-  font-weight: 800;
+  font-weight: 600;
   width: 100%;
-  font-size: 1.2em;
+  font-size: 2em;
 }
 
 .overlay-subtitle {
     font-weight: 300;
     width: 100%;
     font-size: 0.75em;
-  }
+}
 .entry-container:hover {
   
-
+  color: #333333;
+  
 }
 
 .entry-container-2:hover {
-
+  
+  color: #333333;
+  
 }
 
-.entry-container-3:hover {
+.entry-container:hover .overlay-subtitle {
+  background-color: #333333;
+  border-radius: 0.5em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
 
+  color: #ffffff
 }
+
+.entry-container-2:hover .overlay-subtitle {
+  background-color: #333333;
+  border-radius: 0.5em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+
+  color: #ffffff
+}
+
+
+
+
 
 .entry-container {
   background-color: black;
