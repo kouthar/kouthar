@@ -6,8 +6,7 @@
 body {
   background-color: rgba(250, 255, 249, 0.9);
   font-family: "Work Sans", sans-serif;
-  margin-left: 15%;
-  margin-right: 15%;
+  
 }
 
 /* ------ LOGO ------ */
@@ -21,11 +20,12 @@ body {
   font-weight: 800;
   letter-spacing: 0.15em;
   position: relative;
-  size: 2em;
   text-decoration: none;
   color: rgba(0, 0, 0, 0.85);
   font-family: 'Domine', serif;
 }
+
+
 
 .salutation {
   font-family: 'Domine', serif;
@@ -59,7 +59,7 @@ body {
 .nav-wrapper ul {
   position: relative;
   align-self: left;
-  font-size: 1.1em;
+  font-size: 1em;
   font-weight: 400;
   background-color: rgba(255, 242, 170, 0.9);
   padding-right: 3em;
@@ -102,8 +102,11 @@ mark {
 
 .website-contents .about {
   padding: 1.3em;
+  padding-top: 4em;
   background-color: rgba(250, 255, 249, 0.9);
   color: rgba(0, 0, 0, 0.85);
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .animation {
@@ -148,16 +151,21 @@ mark {
   color: rgba(0, 0, 0, 0.85);
 }
 
+.divider {
+  padding-left: 1em;
+}
 .row {
   display: flex;
   flex-wrap: wrap;
   padding: 0 0.5em;
+  margin-left: 7%;
+  margin-right: 7%;
 }
 
 /* Create four equal columns that sits next to each other */
 .column {
   flex: 25%;
-  max-width: 70%;
+  max-width: 100%;
   display: inline;
   margin: 0 auto;
 }
@@ -199,6 +207,7 @@ mark {
 
 
 .entry-container {
+
   background: url("assets/yourW-thumbnail.png");
   color: rgba(0, 0, 0, 0);
   position: relative;
@@ -207,6 +216,7 @@ mark {
   background-size: cover;
   text-align: center;
   transition: all 0.5s;
+  border-radius: 0.7em;
 }
 
 .entry-container-2 {
@@ -218,6 +228,8 @@ mark {
   background-size: cover;
   text-align: center;
   transition: all 0.5s;
+  border-radius: 0.7em;
+
 }
 
 .entry-container:hover:before {
@@ -296,6 +308,7 @@ mark {
     font-weight: 300;
     width: 100%;
     font-size: 0.75em;
+    text-align: center;
 }
 .entry-container:hover {
   
@@ -400,6 +413,7 @@ mark {
   
   .nav-wrapper-mobile li a {
     text-decoration: none;
+
     color: rgba(0, 0, 0, 0.85);
   }
   .nav-wrapper-mobile li a:hover {
