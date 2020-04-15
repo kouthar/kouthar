@@ -6,7 +6,11 @@
 body {
   background-color: rgba(250, 255, 249, 0.9);
   font-family: "Work Sans", sans-serif;
-  
+  background-image: url("assets/bckgrnd2.png");
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-attachment: fixed;
+  background-position: right;
 }
 
 /* ------ LOGO ------ */
@@ -100,13 +104,25 @@ mark {
 
 /* ------ ABOUT ------ */
 
+
+
+
 .website-contents .about {
   padding: 1.3em;
   padding-top: 4em;
-  background-color: rgba(250, 255, 249, 0.9);
   color: rgba(0, 0, 0, 0.85);
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 17%;
+  margin-right: 17%;
+}
+
+@media screen and (min-width: 1500px){
+    .website-contents .about {
+        padding: 1.3em;
+        padding-top: 4em;
+        color: rgba(0, 0, 0, 0.85);
+        margin-left: 30%;
+        margin-right: 30%;
+      }
 }
 
 .animation {
@@ -116,7 +132,7 @@ mark {
   width: 30%;
   float: right;
   padding-top: 2.5em;
-  padding-right: 6em;
+  padding-right: 0em;
   opacity: 100%;
 }
 
@@ -147,7 +163,7 @@ mark {
 
 .website-contents .design {
   padding: 1.3em;
-  background-color: rgba(250, 255, 249, 0.9);
+
   color: rgba(0, 0, 0, 0.85);
 }
 
@@ -165,9 +181,20 @@ mark {
 /* Create four equal columns that sits next to each other */
 .column {
   flex: 25%;
-  max-width: 100%;
+  max-width: 60%;
   display: inline;
   margin: 0 auto;
+}
+
+
+@media screen and (min-width: 1500px){ 
+    .column {
+        flex: 25%;
+        max-width: 35%;
+        display: inline;
+        margin: 0 auto;
+      }
+      
 }
 
 .entry {
