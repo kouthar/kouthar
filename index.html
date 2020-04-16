@@ -3,9 +3,35 @@
 
 <head>
 
+    <script>
+        window.smoothScroll = function(target) {
+        var scrollContainer = target;
+        do { //find scroll container
+            scrollContainer = scrollContainer.parentNode;
+            if (!scrollContainer) return;
+            scrollContainer.scrollTop += 1;
+        } while (scrollContainer.scrollTop == 0);
+
+        var targetY = 0;
+        do { //find the top of target relatively to the container
+            if (target == scrollContainer) break;
+            targetY += target.offsetTop;
+        } while (target = target.offsetParent);
+
+        scroll = function(c, a, b, i) {
+            i++; if (i > 40) return;
+            c.scrollTop = a + (b - a) / 40 * i;
+            setTimeout(function(){ scroll(c, a, b, i); }, 8);
+        }
+        // start scrolling
+        scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
+        }
+    </script>
+
     <!-- GOOGLE ANALYTICS -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149592393-2"></script>
+    
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -52,8 +78,8 @@
             <nav role="navigation" class="menu">
                 <ul class="menu-list">
                     <li class="menu-About"><a href="mailto:hello@kouthar.com">connect</a></li>
-                    <li class="menu-Design"><a href="Kouthar_Waled_Design_Resume.pdf" target="_blank">resume</a></li>
-                    <li class="menu-Resume"><a href="#Design">portfolio</a></li>
+                    <li class="menu-Design" ><a href="Kouthar_Waled_Design_Resume.pdf" target="_blank">resume</a></li>
+                    <li class="menu-Resume"><a href="#" onclick="smoothScroll(document.getElementById('Design'))">portfolio</a></li>
                     <li class="menu-Links"><a href="#About">about</a></li>
                     <li class="logo-item"> <div class="logo">
                         <a href="index.html">kouthar.</a>

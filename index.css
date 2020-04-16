@@ -82,6 +82,10 @@ body {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.85);
 }
+
+.nav-wrapper li:hover {
+    cursor: hand;
+}
 .nav-wrapper li a:hover {
   color: #6A9CE5;
 }
