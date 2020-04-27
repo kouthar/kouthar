@@ -4,7 +4,7 @@
 /* ------BODY------ */
 
 body {
-  background-color: rgba(250, 255, 249, 0.9);
+  background-color: rgb(243, 243, 243);
   font-family: "Work Sans", sans-serif;
   background-image: url("assets/bckgrnd2.png");
   background-repeat: no-repeat;
@@ -65,7 +65,7 @@ body {
   align-self: left;
   font-size: 1em;
   font-weight: 400;
-  background-color: rgba(255, 242, 170, 0.9);
+  background-color: rgb(243, 243, 243);
   padding-right: 3em;
 }
 
@@ -97,13 +97,13 @@ body {
 /* -----  WEBSITE CONTENTS -----*/
 
 mark {
-  background-color:rgba(106, 156, 229, 0.25);
+  background-color:rgba(164, 201, 255, 1);
   padding: 3px;
 }
 .website-contents h1 {
   letter-spacing: 0.07em;
   margin: 0;
-  
+  font-size: 2.5em;
 }
 
 /* ------ ABOUT ------ */
@@ -429,7 +429,7 @@ mark {
       position: relative;
       font-size: 1em;
       font-weight: 400;
-      background-color: rgba(250, 255, 249, 0.9);
+      background-color: rgb(243, 243, 243);
       padding-right: 0em;
       padding-left: 0em;
   }

@@ -81,8 +81,8 @@
 
                 <p> <b>Role:</b> Product Designer <br>
                     <b>Time:</b> March 2020 - Present <br>
-                    <b>Skills:</b> Product Thinking, Information Architecture, Storyboarding, Human-Centred design  <br>
-                    <b>Tools:</b> Figma
+                    <b>Skills:</b> Product Thinking, Information Architecture, Interaction Design, Branding, User testing, Storyboarding, Human-Centred design  <br>
+                    <b>Tools:</b> Figma, Useberry
                 </p>
 
                 
@@ -95,7 +95,7 @@
 
       
 
-            <div class="article-contents">
+            <div class="section">
 
                     <h3><mark>Background </mark></h3>
                     <p>
@@ -132,11 +132,16 @@
                 </div>
 
                 <div class="section">
-                    <h2><mark>Understanding the Problem</mark></h2>
+                    <h2>Understanding the Problem</h2>
+
+                    <div class="vertical-divider"></div>
 
                     <div class="header-image-desktop-2">
                         <img src="assets/WhoWhenWhereWhy.png" alt="" class="research-visual">
                     </div>
+
+                    <div class="vertical-divider"></div>
+
 
                     <p>By answering these questions, I was able to define the scope of the project,
                         and place restrictions over the features that might be associated with the solution. 
@@ -151,6 +156,7 @@
                     <div class="header-image-desktop">
                         <p><br></p>
                         <img src="assets/personas-airbnb.png" alt="" class="research-visual">
+                        <div class="vertical-divider"></div>
 
                         <p>I created these user personas with Airbnb's diverse customer set in mind
                         to ensure that I was designing for real people with a diverse set of goals
@@ -175,7 +181,7 @@
                 </div>
 
                 <div class="section">
-                    <h2><mark>Ideation</mark></h2>
+                    <h2>Ideation</h2>
 
                     <p>I asked myself, <b>"How might I...</b><br>
                         ...ensure a consistent experience across the Airbnb app when adding this new feature?"<br>
@@ -186,6 +192,7 @@
 
                     <div class="header-image-desktop">
                         <img src="assets/user-flows-airbnb.png" alt="">
+                        <div class="vertical-divider"></div>
                         <p>
                             I put myself in the shoes of the users, and outlined a user flow of what steps a user 
                             must or could take in order to successfully book an accomodation in a group, namely 
@@ -207,6 +214,7 @@
 
                     <div class="header-image-desktop">
                         <img src="assets/wireframes-airbnb.png" alt="">
+                        <div class="vertical-divider"></div>
                         <p>
                             Using the artefacts I created before, and with the user in mind, I started wireframing. 
                             I startd with creating a quick flow of wireframes which reflected the current flow that
@@ -240,41 +248,175 @@
                 </div>
 
                 <div class="section">
-                    <h2><mark>Prototyping</mark></h2>
+                    <h2>Prototyping</h2>
 
                     <p>I made my high fidelity prototypes by mocking up existing screens from
                         the Airbnb app to maintain formatting and styleguide.
 
                     </p>
 
+                    <h3><mark>Mocking Airbnb's UI</mark></h3>
+                    <div class="vertical-divider"></div>
                     <div class="header-image-desktop">
 
-                        <img src="assets/booking-airbnb.png" alt="" class="research-visual">
-                        <p><br>I gave users the ability to set whether they wanted to go by ratios (percentage)
-                        or dollar amounts ($) when booking to ensure flexibility for different groups. I included an error
-                    message if the payment ratios didn't add up, and included a disabled state to reduce errors. Once the full
-                payment is accounted for, that is when a Booking Confirmation is sent to each member of the group. Once each member
-            approves the confirmation, the booking and payment goes through, making the trip official. This ensured that
-        no errors are made, and all group members are satisfied with how much they are to pay.</p>
+                        <img src="assets/ui-airbnb.png" alt="" class="research-visual">
 
                     </div>
+
+                    <div class="vertical-divider"></div>
+
+
+
+
+                    <p>In order to make the Group Booking feature an extension of the existing Airbnb
+                        app, I had to make sure I mocked Airbnb's UI, from components, to font styles,
+                        to selection tools. <br><br>
+
+                        In order to achieve an identical UI visual and experience, I screenshotted real
+                        frame equivalents from the Airbnb app, and overlayed my components and design on top of the screenshots
+                        for a pixel by pixel match. I inspected the website to find out the most similar font style available to
+                        use as well, and colour matched components. <br><br>
+
+                        I used existing decision making features - ie. the filters menu, the booking toggle, and confirmation
+                        text on buttons to ensure consistency for everything added.
+
+                    
+                    </p>
+
+                    <h3><mark>Task 1: Making a Group</mark></h3>
+                    <div class="vertical-divider"></div>
+
+                    <div class="header-image-desktop">
+
+                        <img src="assets/group-create-airbnb.png" alt="" class="research-visual">
+                    </div>
+                    
+                    <div class="vertical-divider"></div>
+
+                    <p>Based on my storyboarding, I concluded that there would be three main tasks that are crucial
+                        to Group Booking, the first of which is creating the actual group where group members can 
+                        decide on bookings.<br><br>
+
+                        I used a flow that was very familiar to setting other filters and booking options for maximum consistency
+                        across all tasks, not just Group Booking. Upon toggling the Group Booking option, mirroring the Instant Book
+                        feature, the state of the toggle changes, and the button also changes to indicate a further step to be taken
+                        to create a Group. <br><br>
+
+                        The next challenge to tackle was inviting group members.
+                    </p>
+
+                    <div class="header-image-desktop">
+
+                        <img src="assets/inviting-airbnb.png" alt="" class="research-visual">
+                    </div>
+                    
+                    <div class="vertical-divider"></div>
+
+                    <p>Since Airbnb does not have an invite feature that allows for flexibility that allows
+                        booking as a group, I looked towards external references for the the UX that gives
+                        flexible access and settings for collaborative digital documents. I referenced popular tools
+                        like Google Docs in order to introduce an experience that was consistent with the norm across 
+                        the digital space that was also something that was familiar to many users. 
+
+                       
+                    </p>
+
+                    <h3><mark>Task 2: Managing a Group and Selecting Options</mark></h3>
+                    <div class="vertical-divider"></div>
+
+
+                    <div class="header-image-desktop">
+
+                        <img src="assets/group-manage-airbnb.png" alt="" class="research-visual">
+                    </div>
+                    
+                    <div class="vertical-divider"></div>
+
+                    <p>
+                        Once a group was created, it opened up where the group is to lie, under "Saved" where lists reside
+                        on Airbnb. This was to ensure users got confirmation when they created a group, but also so users
+                        knew where to go to manage their group and choose a booking. This is consistent to how users
+                        would normally save options to book, so it tied into managing a group.<br><br>
+
+                        From there, members could manage their group, inviting new people, or managing group permissions through
+                        exisiting Airbnb user flows.
+                    </p>
+
+                    <h3><mark>Task 3: Booking a Trip</mark></h3>
+                    <div class="vertical-divider"></div>
+
+                    <div class="header-image-desktop">
+
+                        <img src="assets/book-group-airbnb.png" alt="" class="research-visual">
+                    </div>
+                    
+                    <div class="vertical-divider"></div>
+
+                    <p>I built upon the exisitng Airbnb booking flow to ensure consistency across the application.
+                        
+                        When it came to payments, I gave users the ability to set whether they wanted to go by ratios (percentage)
+                        or dollar amounts ($) when booking to ensure flexibility for different groups. This option is open once a group
+                        selects a place to stay because ratios or payments may be different for different locations, making the meaning 
+                        of payment inconsistent before a selection is made. Any group member is allowed to select a place to stay,
+                        subject to approval from other group members, as indicated.
+                        
+                    </p>
+
+                    <div class="header-image-desktop">
+
+                        <img src="assets/booking-errors-airbnb.png" alt="" class="research-visual">
+                    </div>
+                    
+                    <div class="vertical-divider"></div>
+
+                    <p>
+
+                        I included error messages, disabled button states, and indicators to ensure users were informed of potential
+                        unaccounted payments or members. This ensures that a group booking does not go through unless all payment is accounted for,
+                        and all group members confirm the booking.
+                    </p>
+                    
+                    <h2>User Testing</h2>
+                    <p>Using my Figma prototype, I selected a number of users to test tasks I had set up. There were
+                        two groups among my user tests: <br><br>
+                        1. People who have used Airbnb before <br>
+                        2. People who have not used Airbnb before <br><br>
+
+                        Both groups typically completed tasks successfully, but there were a couple of points of confusion, namely
+                        payment for the booking. 
+                    </p>
+
+                    <div class="header-image-desktop">
+
+                        <img src="assets/user-testing-airbnb.png" alt="" class="research-visual">
+                    </div>
+                    
+                    <div class="vertical-divider"></div>
+
+                    <p>Users noted that they were confused as to how much they were paying, versus how much the group
+                        was paying. I iterated upon my design to ensure that there was a distinction made, and less confusion was to be had.</p>
+
+                   
+                    
                 </div>
 
+
+                
+
+                <div class="section">
+                    <h2>Reflection</h2>
+                    <p>This was a really great project to work on! Although I focused on customer experience,
+                        I also learned how to also think about the hosts, who are providing the services for
+                        the customers, ensuring a design that was successful across the business. I learned how to make decisions that reflected both user and
+                        business needs, as well as how to effectively iterate upon designs for customer success.
+                    </p>
+                </div>
 
                 <div class="bkgdvid1">
 
-                <video autoplay="" muted="" class="" id="" loop="loop">
-                    <source src="assets/prototype-video.mov" type="video/mp4">
-                </video></div>
-
-                <div class="section">
-                    <h2><mark>Reflection</mark></h2>
-                    <p>This was a really great project to work on. Although I focused on customer experience,
-                        I also learned how to also think about the hosts, who are providing the services for
-                        the customers. I also learned how to make decisions that reflected both user and
-                        business needs.
-                    </p>
-                </div>
+                    <video autoplay="" muted="" class="" id="" loop="loop">
+                        <source src="assets/prototype-video.mov" type="video/mp4">
+                    </video></div>
                 
 
 
@@ -313,7 +455,7 @@
             </ul>
         </nav>
         <div class="signature">
-            <p> designed & developed with &#9729 by kouthar waled. <p>
+            <p> designed & developed with &#9728 by kouthar waled. <p>
         </div>
     </div>
 
