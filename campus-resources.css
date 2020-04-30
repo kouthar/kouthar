@@ -4,12 +4,34 @@
 /* ------BODY------ */
 
 body {
-  background-color: #f3f3f3;
+  background-color: rgb(252, 252, 252);
   font-family: "Work Sans", sans-serif;
 }
 
 
-    
+button {
+  background-color: rgba(164, 201, 255, 1);
+  padding: 2em;
+  display: block;
+  margin: 0 auto;
+  border-radius: 1.5em;
+
+}
+
+button:hover {
+  background-color: rgb(139, 172, 221);
+  cursor: hand;
+}
+
+button:hover a {
+  color: #ffffff;
+}
+button a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 1.5em;
+
+}
 
 /* ------ LOGO ------ */
 
@@ -54,7 +76,7 @@ body {
   align-self: left;
   font-size: 1.1em;
   font-weight: 400;
-  background-color: rgb(243, 243, 243);
+  background-color: rgb(252, 252, 252);
   padding-right: 3em;
 }
 
@@ -216,7 +238,7 @@ mark {
 .website-contents .article {
 
   padding: 1.3em;
-  background-color: rgb(243, 243, 243);
+  background-color: rgb(252, 252, 252);
   color: rgba(0, 0, 0, 0.85);
 }
 
@@ -418,7 +440,7 @@ mark {
       position: relative;
       font-size: 1em;
       font-weight: 400;
-      background-color: rgba(250, 255, 249, 0.9);
+      background-color: rgba(252, 252, 252, 1);
       padding-right: 0em;
       padding-left: 0em;
   }

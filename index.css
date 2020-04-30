@@ -4,7 +4,7 @@
 /* ------BODY------ */
 
 body {
-  background-color: rgb(243, 243, 243);
+  background-color: rgb(252, 252, 252);
   font-family: "Work Sans", sans-serif;
   background-image: url("assets/bckgrnd2.png");
   background-repeat: no-repeat;
@@ -65,7 +65,7 @@ body {
   align-self: left;
   font-size: 1em;
   font-weight: 400;
-  background-color: rgb(243, 243, 243);
+  background-color: rgb(252, 252, 252);
   padding-right: 3em;
 }
 
@@ -200,6 +200,8 @@ mark {
       }
       
 }
+
+
 
 .entry {
   padding-top: 0.5em;
