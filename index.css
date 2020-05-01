@@ -166,9 +166,17 @@ mark {
 /* ----- DESIGN ---- */
 
 .website-contents .design {
-  padding: 5em;
+  padding: 1.3em;
 
   color: rgba(0, 0, 0, 0.85);
+}
+
+@media screen and (min-width: 2300px) {
+
+  .website-contents .design{
+    padding: 5em;
+  }
+
 }
 
 .divider {
