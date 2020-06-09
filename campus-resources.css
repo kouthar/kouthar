@@ -19,17 +19,19 @@ button {
 }
 
 button:hover {
-  background-color: rgb(139, 172, 221);
+  background-color: rgb(126, 178, 255);
   cursor: hand;
 }
 
 button:hover a {
-  color: #ffffff;
+  color: #333333;
 }
 button a {
   text-decoration: none;
   color: #333333;
   font-size: 1.5em;
+  border-width: 0;
+  border-color: #6A9CE5;
 
 }
 
