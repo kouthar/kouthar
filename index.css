@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Work+Sans:400,600");
 @import url("'https://fonts.googleapis.com/css?family=Merriweather|Playfair+Display&display=swap'");
 @import url('https://fonts.googleapis.com/css?family=Domine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;800;900&family=Raleway&display=swap');
 /* ------BODY------ */
 
 body {
@@ -25,7 +26,7 @@ body {
   letter-spacing: 0.15em;
   position: relative;
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.85);
+  color: rgba(0, 0, 0, 0.77);
   font-family: 'Domine', serif;
 }
 
@@ -80,7 +81,7 @@ body {
 
 .nav-wrapper li a {
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.85);
+  color: rgba(0, 0, 0, 0.77);
 }
 
 .nav-wrapper li:hover {
@@ -103,7 +104,7 @@ mark {
 .website-contents h1 {
   letter-spacing: 0.07em;
   margin: 0;
-  font-size: 2.5em;
+  font-size: 3em;
 }
 
 /* ------ ABOUT ------ */
@@ -114,7 +115,7 @@ mark {
 .website-contents .about {
   padding: 1.3em;
   padding-top: 4em;
-  color: rgba(0, 0, 0, 0.85);
+  color: rgba(0, 0, 0, 0.77);
   margin-left: 17%;
   margin-right: 17%;
 }
@@ -123,7 +124,7 @@ mark {
     .website-contents .about {
         padding: 1.3em;
         padding-top: 4em;
-        color: rgba(0, 0, 0, 0.85);
+        color: rgba(0, 0, 0, 0.77);
         margin-left: 30%;
         margin-right: 30%;
       }
@@ -168,7 +169,7 @@ mark {
 .website-contents .design {
   padding: 1.3em;
 
-  color: rgba(0, 0, 0, 0.85);
+  color: rgba(0, 0, 0, 0.77);
 }
 
 @media screen and (min-width: 2300px) {
@@ -227,7 +228,7 @@ mark {
 
 .column a {
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.85);
+  color: rgba(0, 0, 0, 0.77);
 }
 
 .column a:hover {
@@ -242,6 +243,10 @@ mark {
 }
 
 .entry-container-2 img {
+  visibility: hidden;
+}
+
+.entry-container-4 img {
   visibility: hidden;
 }
 
@@ -262,6 +267,19 @@ mark {
 
 .entry-container-2 {
   background: url("assets/airbnb-thumbnail.png");
+  color: rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  transition: all 0.5s;
+  border-radius: 0.7em;
+
+}
+
+.entry-container-4 {
+  background: url("assets/illustration-thumbnail.png");
   color: rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;
@@ -310,6 +328,18 @@ mark {
   transition: all 0.5s;
 }
 
+.entry-container-4:hover:before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.7);
+  transition: all 0.5s;
+}
+
 
 
 .entry-container-2:before {
@@ -324,6 +354,18 @@ mark {
     transition: all 0.5s;
 }
 
+.entry-container-4:before {
+  position: absolute;
+  content:    "";
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.0);
+  transition: all 0.5s;
+}
+
 
 
 .overlay-container {
@@ -333,6 +375,15 @@ mark {
 }
 
 .overlay-container2 {
+  position: relative;
+  margin-top: -40%;
+  left: -50%;
+  
+}
+
+
+
+.overlay-container4{
   position: relative;
   margin-top: -40%;
   left: -50%;
@@ -363,6 +414,12 @@ mark {
   
 }
 
+.entry-container-4:hover {
+  
+  color: #333333;
+  
+}
+
 .entry-container:hover .overlay-subtitle {
   background-color: #333333;
   border-radius: 0.5em;
@@ -385,6 +442,18 @@ mark {
   color: #ffffff
 }
 
+.entry-container-4:hover .overlay-subtitle {
+  background-color: #333333;
+  border-radius: 0.5em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+
+  color: #ffffff
+}
+
+
 
 
 
@@ -394,6 +463,10 @@ mark {
 }
 
 .entry-container-2 {
+  background-color: black;
+}
+
+.entry-container-4 {
   background-color: black;
 }
 
@@ -455,7 +528,7 @@ mark {
   .nav-wrapper-mobile li a {
     text-decoration: none;
 
-    color: rgba(0, 0, 0, 0.85);
+    color: rgba(0, 0, 0, 0.77);
   }
   .nav-wrapper-mobile li a:hover {
     color: #6A9CE5;

@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Work+Sans:400,600");
 @import url('https://fonts.googleapis.com/css?family=Domine&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:400,600");
+@import url("'https://fonts.googleapis.com/css?family=Merriweather|Playfair+Display&display=swap'");
+@import url('https://fonts.googleapis.com/css?family=Domine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;800;900&family=Raleway&display=swap');
 
 /* ------BODY------ */
 
@@ -48,7 +52,7 @@ button a {
   position: relative;
   size: 2em;
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.85);
+  color: rgba(0, 0, 0, 0.77);
   font-family: 'Domine', serif;
 }
 
@@ -117,8 +121,9 @@ button a {
 
 .section h2{
   margin-left: 15%;
-  margin-right: 15%;
-  font-size: 1.75em;
+  margin-right: 50%;
+  font-size: 2.6em;
+  font-family: 'Domine', serif;
 }
 
 .section h3{
@@ -128,7 +133,7 @@ button a {
 
 .nav-wrapper li a {
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.85);
+  color: rgba(0, 0, 0, 0.77);
 }
 .nav-wrapper li a:hover {
   color: #6A9CE5;
@@ -209,12 +214,13 @@ mark {
 
 .section h2{
   margin-left: 25%;
-  margin-right: 25%;
+  margin-right: 40%;
 }
 
 .section h3{
   margin-left: 25%;
   margin-right: 25%;
+  font-size: 1.5em;
 }
 
 @media screen and (max-width: 1200px) {
@@ -241,12 +247,14 @@ mark {
 
   padding: 1.3em;
   background-color: rgb(252, 252, 252);
-  color: rgba(0, 0, 0, 0.85);
+  color: rgba(0, 0, 0, 0.77);
 }
 
 .article h1 {
     margin-top: 1em;
-    font-size: 2.5em;
+    font-size: 3.5em;
+    font-family: 'Domine', serif;
+
 }
 
 .article .background {
@@ -457,7 +465,7 @@ mark {
   
   .nav-wrapper-mobile li a {
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.85);
+    color: rgba(0, 0, 0, 0.77);
   }
   .nav-wrapper-mobile li a:hover {
     color: #6A9CE5;
