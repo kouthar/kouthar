@@ -52,7 +52,7 @@ button a {
   position: relative;
   size: 2em;
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.77);
+  color: #333333;
   font-family: 'Domine', serif;
 }
 
@@ -133,7 +133,7 @@ button a {
 
 .nav-wrapper li a {
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.77);
+  color: #333333;
 }
 .nav-wrapper li a:hover {
   color: #6A9CE5;
@@ -247,7 +247,7 @@ mark {
 
   padding: 1.3em;
   background-color: rgb(252, 252, 252);
-  color: rgba(0, 0, 0, 0.77);
+  color: #333333;
 }
 
 .article h1 {
@@ -465,7 +465,7 @@ mark {
   
   .nav-wrapper-mobile li a {
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.77);
+    color: #333333;
   }
   .nav-wrapper-mobile li a:hover {
     color: #6A9CE5;
