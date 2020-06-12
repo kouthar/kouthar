@@ -120,6 +120,18 @@ mark {
   margin-right: 17%;
 }
 
+@media screen and (max-width: 600px){
+  .website-contents .about{
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .website-contents {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
+
 @media screen and (min-width: 1500px){
     .website-contents .about {
         padding: 1.3em;
@@ -199,6 +211,16 @@ mark {
   margin: 0 auto;
 }
 
+@media screen and (max-width: 600px){
+  .column {
+    max-width: 100%;
+  }
+
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
 
 @media screen and (min-width: 1500px){ 
     .column {
@@ -266,7 +288,7 @@ mark {
 }
 
 .entry-container-2 {
-  background: url("assets/airbnb-thumbnail.png");
+  background: url("assets/airbnb-thumbnail-1.png");
   color: rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;
@@ -396,6 +418,11 @@ mark {
   font-size: 2em;
 }
 
+@media screen and (max-width: 500px) {
+  .overlay-title {
+    font-size: 1.5em;
+  }
+}
 .overlay-subtitle {
     font-weight: 300;
     width: 100%;
@@ -512,7 +539,7 @@ mark {
       position: relative;
       font-size: 1em;
       font-weight: 400;
-      background-color: rgb(243, 243, 243);
+      background-color: rgb(243, 243, 243, 0);
       padding-right: 0em;
       padding-left: 0em;
   }
