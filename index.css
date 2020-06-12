@@ -206,7 +206,7 @@ mark {
 /* Create four equal columns that sits next to each other */
 .column {
   flex: 25%;
-  max-width: 60%;
+  max-width: 70%;
   display: inline;
   margin: 0 auto;
 }
@@ -225,7 +225,7 @@ mark {
 @media screen and (min-width: 1500px){ 
     .column {
         flex: 25%;
-        max-width: 35%;
+        max-width: 45%;
         display: inline;
         margin: 0 auto;
       }
