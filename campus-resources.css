@@ -7,6 +7,14 @@
 
 /* ------BODY------ */
 
+.section-2 a {
+  color: #333333;
+}
+
+.mxgraph {
+display: flex;
+justify-content: center;
+}
 body {
   background-color: rgb(252, 252, 252);
   font-family: "Work Sans", sans-serif;
@@ -121,7 +129,7 @@ button a {
 
 .section h2{
   margin-left: 15%;
-  margin-right: 50%;
+  margin-right: 15%;
   font-size: 2.6em;
   font-family: 'Domine', serif;
 }
@@ -178,8 +186,8 @@ mark {
 
 .bkgdvid video {
   display: block;
-  width: 60%;
-  height: 60%;
+  width: 70%;
+  height: 70%;
   margin: 0 auto;
   box-shadow: 30px 30px 59px #e0e0e0, 
   -30px -30px 59px #ffffff;;
@@ -214,7 +222,7 @@ mark {
 
 .section h2{
   margin-left: 25%;
-  margin-right: 40%;
+  margin-right: 15%;
 }
 
 .section h3{
@@ -362,9 +370,13 @@ mark {
   z-index: 8;
   width: 70%;
   margin: auto;
-  background-color: #ccdbff;
+  background-color: #CBE8F5;
+  border-radius: 0.5em;
   padding-left: 1em;
   padding-right: 1em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+
   margin-top: 1em;
   
 }

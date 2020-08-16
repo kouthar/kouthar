@@ -206,7 +206,7 @@ mark {
 /* Create four equal columns that sits next to each other */
 .column {
   flex: 25%;
-  max-width: 70%;
+  max-width: 65%;
   display: inline;
   margin: 0 auto;
 }
@@ -268,6 +268,14 @@ mark {
   visibility: hidden;
 }
 
+.entry-container-5 img {
+  visibility: hidden;
+}
+
+.entry-container-6 img {
+  visibility: hidden;
+}
+
 .entry-container-4 img {
   visibility: hidden;
 }
@@ -289,6 +297,31 @@ mark {
 
 .entry-container-2 {
   background: url("assets/airbnb-thumbnail-1.png");
+  color: rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  transition: all 0.5s;
+  border-radius: 0.7em;
+
+}
+.entry-container-5 {
+  background: url("assets/BeBlended-Thumbnail.png");
+  color: rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  transition: all 0.5s;
+  border-radius: 0.7em;
+
+}
+
+.entry-container-6 {
+  background: url("assets/ProseApp-Thumbnail.png");
   color: rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;
@@ -350,6 +383,30 @@ mark {
   transition: all 0.5s;
 }
 
+.entry-container-5:hover:before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.7);
+  transition: all 0.5s;
+}
+
+.entry-container-6:hover:before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.7);
+  transition: all 0.5s;
+}
+
 .entry-container-4:hover:before {
   position: absolute;
   content: "";
@@ -376,6 +433,30 @@ mark {
     transition: all 0.5s;
 }
 
+.entry-container-5:before {
+  position: absolute;
+  content:    "";
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.0);
+  transition: all 0.5s;
+}
+
+.entry-container-6:before {
+  position: absolute;
+  content:    "";
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.0);
+  transition: all 0.5s;
+}
+
 .entry-container-4:before {
   position: absolute;
   content:    "";
@@ -397,6 +478,20 @@ mark {
 }
 
 .overlay-container2 {
+  position: relative;
+  margin-top: -40%;
+  left: -50%;
+  
+}
+
+.overlay-container5 {
+  position: relative;
+  margin-top: -40%;
+  left: -50%;
+  
+}
+
+.overlay-container6 {
   position: relative;
   margin-top: -40%;
   left: -50%;
@@ -441,6 +536,17 @@ mark {
   
 }
 
+.entry-container-5:hover {
+  
+  color: #333333;
+  
+}
+
+.entry-container-6:hover {
+  
+  color: #333333;
+  
+}
 .entry-container-4:hover {
   
   color: #333333;
@@ -469,6 +575,30 @@ mark {
   color: #ffffff
 }
 
+.entry-container-5:hover .overlay-subtitle {
+  background-color: #333333;
+  border-radius: 0.5em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+
+  color: #ffffff
+}
+
+.entry-container-6:hover .overlay-subtitle {
+  background-color: #333333;
+  border-radius: 0.5em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+
+  color: #ffffff
+}
+
+
+
 .entry-container-4:hover .overlay-subtitle {
   background-color: #333333;
   border-radius: 0.5em;
@@ -493,6 +623,15 @@ mark {
   background-color: black;
 }
 
+
+.entry-container-5 {
+  background-color: black;
+}
+
+
+.entry-container-6 {
+  background-color: black;
+}
 .entry-container-4 {
   background-color: black;
 }
