@@ -98,7 +98,7 @@ body {
 /* -----  WEBSITE CONTENTS -----*/
 
 mark {
-  background-color:rgba(164, 201, 255, 1);
+  background-color: #CBE8F5;
   padding: 3px;
 }
 .website-contents h1 {
@@ -145,22 +145,45 @@ mark {
 .animation {
 }
 .animation img {
-  height: 30%;
-  width: 30%;
+  height: 27%;
+  width: 27%;
   float: right;
   padding-top: 2.5em;
   padding-right: 0em;
   opacity: 100%;
 }
 
+button {
+  background-color: #CBE8F5;
+  padding: 0.5em 1em 0.5em 1em;
+  border: 0em;
+  border-radius: 0.75em;
+  font-family:  "Work Sans", sans-serif;
+  font-size: 1.25em;
+  font-weight: 500;
+}
+
+button:hover {
+  background-color: #8aceee;
+  padding: 0.5em 1em 0.5em 1em;
+  border: 0em;
+  border-radius: 1em;
+  font-family:  "Work Sans", sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  cursor: hand;
+}
+
 .website-contents .about h2 {
   font-weight: 400;
   color: #6A9CE5;
   margin: 0;
+  padding-top: 0.5em;
+  font-size: 1.5em;
 }
 
 .about .about-paragraph {
-  width: 60%;
+  width: 63%;
 }
 .about p {
   line-height: 2em;
@@ -321,7 +344,7 @@ mark {
 }
 
 .entry-container-6 {
-  background: url("assets/ProseApp-Thumbnail.png");
+  background: url("assets/ProseApp-Desktop-Mobile-Thumbnail.png");
   color: rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;

@@ -196,6 +196,20 @@ mark {
 
 }
 
+.bkgdvid-mobile video {
+  display: block;
+  width: 30%;
+  height: 30%;
+  margin: 0 auto;
+  box-shadow: 30px 30px 59px #e0e0e0, 
+  -30px -30px 59px #ffffff;;
+  z-index: -1;
+  border-radius: 3em;
+  
+
+
+}
+
 
 .bkgdvid1 video {
   display: block;
