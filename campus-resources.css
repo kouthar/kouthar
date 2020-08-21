@@ -323,11 +323,20 @@ mark {
   height: 0%;
 }
 
+.header-image-mobile h2 {
+  display: none;
+}
+
   .prototyping-gif img{
     box-shadow: -10px -10px 30px rgb(235, 248, 231), 10px 10px 30px rgb(208, 219, 205);
   }
 
   @media screen and (max-width: 600px) {
+
+    .header-image-mobile h2 {
+      display: inline;
+    }
+    
 
     h1 {
       font-size: 1.5em;
