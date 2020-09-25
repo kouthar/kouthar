@@ -43,7 +43,7 @@ button a {
   color: #333333;
   font-size: 1.5em;
   border-width: 0;
-  border-color: #6A9CE5;
+  border-color: #4bb1a8;
 
 }
 
@@ -144,7 +144,7 @@ button a {
   color: #333333;
 }
 .nav-wrapper li a:hover {
-  color: #6A9CE5;
+  color: #4bb1a8;
 }
 
 
@@ -393,7 +393,7 @@ mark {
   z-index: 8;
   width: 70%;
   margin: auto;
-  background-color: #CBE8F5;
+  background-color: rgba(255, 227, 166, 0.6);
   border-radius: 0.5em;
   padding-left: 1em;
   padding-right: 1em;
@@ -432,11 +432,11 @@ mark {
 
 .website-contents .article .learn-more a {
   text-decoration: none;
-  color: #6A9CE5;
+  color: #4bb1a8;
 }
 
 .website-contents .article .learn-more a:hover {
-  color: #6A9CE5;
+  color: #4bb1a8;
 }
 
 
@@ -503,7 +503,7 @@ mark {
     color: #333333;
   }
   .nav-wrapper-mobile li a:hover {
-    color: #6A9CE5;
+    color: #4bb1a8;
   }
   .animation {
       width: 0%;
@@ -558,7 +558,7 @@ mark {
 
 .next-links a {
   text-decoration: none;
-  color: #6A9CE5;
+  color: #4bb1a8;
 }
 
 .next-links .back {
@@ -587,7 +587,7 @@ mark {
 }
 
 i:hover {
-  color: #6A9CE5;
+  color: #4bb1a8;
 }
 /* ----- SIGNATURE -----*/
 
