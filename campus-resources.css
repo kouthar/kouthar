@@ -75,6 +75,15 @@ button a {
  
 }
 
+.secondary-title {
+  color: #94a7a4;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 0.7em;
+  letter-spacing: 0em;
+}
+}
+
 /* ------NAVIGATION BAR------ */
 
 .menu {
