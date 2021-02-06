@@ -43,7 +43,7 @@ button a {
   color: #333333;
   font-size: 1.5em;
   border-width: 0;
-  border-color: #4bb1a8;
+  border-color: #1F8F8F;
 
 }
 
@@ -153,7 +153,7 @@ button a {
   color: #333333;
 }
 .nav-wrapper li a:hover {
-  color: #4bb1a8;
+  color: #1F8F8F;
 }
 
 
@@ -245,7 +245,7 @@ mark {
 
 .section h2{
   margin-left: 25%;
-  margin-right: 15%;
+  margin-right: 25%;
 }
 
 .section h3{
@@ -295,8 +295,8 @@ mark {
 .header-image-desktop img {
   display:block;
 
-  height: 80%;
-  width: 80%;
+  height: 50%;
+  width: 50%;
   opacity: 100%;
   margin: 0 auto;
   box-shadow: 30px 30px 59px #d1d1d1, 
@@ -441,11 +441,11 @@ mark {
 
 .website-contents .article .learn-more a {
   text-decoration: none;
-  color: #4bb1a8;
+  color: #1F8F8F;
 }
 
 .website-contents .article .learn-more a:hover {
-  color: #4bb1a8;
+  color: #1F8F8F;
 }
 
 
@@ -512,7 +512,7 @@ mark {
     color: #333333;
   }
   .nav-wrapper-mobile li a:hover {
-    color: #4bb1a8;
+    color: #1F8F8F;
   }
   .animation {
       width: 0%;
@@ -567,7 +567,7 @@ mark {
 
 .next-links a {
   text-decoration: none;
-  color: #4bb1a8;
+  color: #1F8F8F;
 }
 
 .next-links .back {
@@ -596,7 +596,7 @@ mark {
 }
 
 i:hover {
-  color: #4bb1a8;
+  color: #1F8F8F;
 }
 /* ----- SIGNATURE -----*/
 
