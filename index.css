@@ -331,7 +331,7 @@ button:hover {
 
 .entry-container {
 
-  background: url("assets/yourW-thumbnail.png");
+  background: url("assets/WSIB-Passport-Thumbnail.png");
   color: rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;
@@ -879,4 +879,24 @@ i:hover {
 
 .signature p {
   text-align: center;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column-work {
+  float: left;
+  width: 10%;
+  padding: 1.25em;
+  opacity: 80%;
+}
+
+.column-work:hover {
+  opacity: 50%;
+}
+
+/* Clear floats after image containers */
+.row-work::after {
+  content: "";
+  clear: both;
+  display: table;
+  
 }
