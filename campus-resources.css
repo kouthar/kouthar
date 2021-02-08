@@ -82,6 +82,10 @@ button a {
   font-size: 0.7em;
   letter-spacing: 0em;
 }
+
+.summary a {
+  color: #1F8F8F;
+  text-decoration: none;
 }
 
 /* ------NAVIGATION BAR------ */
